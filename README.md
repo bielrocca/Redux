@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+## Clone repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```bash
+https://github.com/bielrocca/Redux
+```
+<br>
 
-## Available Scripts
+>[!TIP]
+>
+> Após a clonagem do repositório, digite no prompt de comando `npm i --force` para instalar todas as dependências!
 
-In the project directory, you can run:
+>[!IMPORTANT]
+>
+> Necessaria instalação das dependências pois o projeto necessita delas para que possa fluir corretamente.
 
-### `npm start`
+## Open server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para rodar o projeto em sua máquina você terá que fazer o [fork](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) do repositório.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<details open>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<summary>Gerenciador de Servidor</summary>
 
-### `npm run build`
+<sub>Command Line</sub>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npx json-server db.json -p 4000 
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details open>
 
-### `npm run eject`
+<summary>Abrindo no localhost</summary>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<sub>Command Line</sub>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+</details>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Requisitos necessários para rodar o projeto:<br>
+
+<!-- ### Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin). -->
+
+### Pré-requisitos
+
+
+`Node.js` `VSCode` `Git`
+
+> [!IMPORTANT]
+>
+>- Run Time [Node.js](https://nodejs.org/en/) com a versão _16 ou superior_.<br>
+>- Um editor de códigos onde eu recomendo o [VCode](https://code.visualstudio.com/)<br>
+>- E o [git](https://git-scm.com/downloads) uma aplicação de versionamento de código.
+
+<!-- > - Extensão do VSCode [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) -->
+
+### Technologies and Tools
+
+`React` `Vite` `styled-components` `redux` `redux@toolkit` `EditorConfig` `ESLint` `Git`
+`Prettier` `RTL`
+
+<!-- Bagde dos Repositórios, Node.js Git e Vscode -->
+<!-- <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="VSCode"/>
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> -->
+
+## References
+
+**Acesse:** [EBAC](https://ebaconline.com.br/)
