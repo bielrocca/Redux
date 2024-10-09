@@ -1,7 +1,7 @@
 ## Clone repository
 
 ```bash
-https://github.com/bielrocca/Redux
+git clone https://github.com/bielrocca/Redux
 ```
 <br>
 
